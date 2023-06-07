@@ -18,7 +18,4 @@ function encontrarIndicesMinMax(array) {
   return [indiceMaior, indiceMenor];
 }
 
-var numeros = [5, 9, 2, 1, 7, 4, 15];
-var indices = encontrarIndicesMinMax(numeros);
-console.log('Índice do maior valor:', indices[0]);
-console.log('Índice do menor valor:', indices[1]);
+module.exports = { encontrarIndicesMinMax };
